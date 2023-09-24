@@ -12,6 +12,8 @@ FRACTRAN is an esoteric programming language invented by J. Conway. A program in
 1. for the first fraction *f* in the list for which *nf* is an integer, replace *n* by *nf*
 2. repeat this rule until no fraction in the list produces an integer when multiplied by *n*, then halt.
 
+[This page](http://lomont.org/posts/2017/fractran/) demonstrates that even FRACTRAN can be run in FRACTRAN and while explaining it it describes how to write in FRACTRAN.
+
 To enter your program here simply type the initial value n followed by the program (the fractions) separated by spaces. Note that the denominators of the fractions must be always present (even when the fraction is whole number - write it as *a/1*).
 
 Because very often interesting are not only the final values but even the values during the execution this interpreter prints them. The number of these numbers during the process is often very high (and sometimes the programs are intentionally designed to be infinite - for example the PRIMEGAME by the author J. Conway that produces prime numbers) so it would be hard to go through them when all would be printed (almost) at the same time, this interpreter prints only limited number of them and then asks whether it should continue. You can change this limit in SETTINGS or even choose not to have it at all. You can turn off the printing of the numbers during the process as well.
